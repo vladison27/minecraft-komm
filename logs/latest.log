@@ -1,0 +1,76 @@
+[12:33:38] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[12:33:38] [Server thread/INFO]: Loading properties
+[12:33:38] [Server thread/INFO]: Default game type: SURVIVAL
+[12:33:38] [Server thread/INFO]: Generating keypair
+[12:33:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:33:39] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_45]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_45]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.7.10.jar:?]
+	at om.g(SourceFile:124) ~[minecraft_server.1.7.10.jar:?]
+	at ls.y(SourceFile:99) [minecraft_server.1.7.10.jar:?]
+	at ls.<init>(SourceFile:25) [minecraft_server.1.7.10.jar:?]
+	at lt.e(SourceFile:166) [minecraft_server.1.7.10.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:339) [minecraft_server.1.7.10.jar:?]
+	at lj.run(SourceFile:628) [minecraft_server.1.7.10.jar:?]
+[12:33:40] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_45]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_45]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.7.10.jar:?]
+	at om.g(SourceFile:124) ~[minecraft_server.1.7.10.jar:?]
+	at ls.x(SourceFile:91) [minecraft_server.1.7.10.jar:?]
+	at ls.<init>(SourceFile:27) [minecraft_server.1.7.10.jar:?]
+	at lt.e(SourceFile:166) [minecraft_server.1.7.10.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:339) [minecraft_server.1.7.10.jar:?]
+	at lj.run(SourceFile:628) [minecraft_server.1.7.10.jar:?]
+[12:33:40] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_45]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_45]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.7.10.jar:?]
+	at om.g(SourceFile:124) ~[minecraft_server.1.7.10.jar:?]
+	at ls.z(SourceFile:107) [minecraft_server.1.7.10.jar:?]
+	at ls.<init>(SourceFile:29) [minecraft_server.1.7.10.jar:?]
+	at lt.e(SourceFile:166) [minecraft_server.1.7.10.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:339) [minecraft_server.1.7.10.jar:?]
+	at lj.run(SourceFile:628) [minecraft_server.1.7.10.jar:?]
+[12:33:40] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_45]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_45]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_45]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.7.10.jar:?]
+	at om.g(SourceFile:124) ~[minecraft_server.1.7.10.jar:?]
+	at ls.B(SourceFile:123) [minecraft_server.1.7.10.jar:?]
+	at ls.<init>(SourceFile:30) [minecraft_server.1.7.10.jar:?]
+	at lt.e(SourceFile:166) [minecraft_server.1.7.10.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:339) [minecraft_server.1.7.10.jar:?]
+	at lj.run(SourceFile:628) [minecraft_server.1.7.10.jar:?]
+[12:33:40] [Server thread/INFO]: Preparing level "world"
+[12:33:40] [Server thread/INFO]: Preparing start region for level 0
+[12:33:41] [Server thread/INFO]: Preparing spawn area: 4%
+[12:33:42] [Server thread/INFO]: Preparing spawn area: 10%
+[12:33:43] [Server thread/INFO]: Preparing spawn area: 17%
+[12:33:44] [Server thread/INFO]: Preparing spawn area: 24%
+[12:33:45] [Server thread/INFO]: Preparing spawn area: 32%
+[12:33:46] [Server thread/INFO]: Preparing spawn area: 42%
+[12:33:47] [Server thread/INFO]: Preparing spawn area: 54%
+[12:33:48] [Server thread/INFO]: Preparing spawn area: 63%
+[12:33:49] [Server thread/INFO]: Preparing spawn area: 71%
+[12:33:50] [Server thread/INFO]: Preparing spawn area: 83%
+[12:33:51] [Server thread/INFO]: Preparing spawn area: 99%
+[12:33:51] [Server thread/INFO]: Done (11,652s)! For help, type "help" or "?"
+[12:34:33] [Server thread/INFO]: --- Showing help page 1 of 7 (/help <page>) ---
+[12:34:33] [Server thread/INFO]: /achievement give <stat_name> [player]
+[12:34:33] [Server thread/INFO]: /ban <name> [reason ...]
+[12:34:33] [Server thread/INFO]: /ban-ip <address|name> [reason ...]
+[12:34:33] [Server thread/INFO]: /banlist [ips|players]
+[12:34:33] [Server thread/INFO]: /clear <player> [item] [data]
+[12:34:33] [Server thread/INFO]: /debug <start|stop>
+[12:34:33] [Server thread/INFO]: /defaultgamemode <mode>
+[12:34:39] [Server Shutdown Thread/INFO]: Stopping server
